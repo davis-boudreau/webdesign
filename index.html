@@ -9,27 +9,63 @@
     Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.    
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- External CSS - Link to the external stylesheet-->
+    <link rel="stylesheet" href="styles.css">
     <!--Be sure to provide a Title for your website-->
     <title>Strait Area Transit</title>
-    <!-- External CSS - Link to the external stylesheet-->
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- A semantic element clearly describes its meaning to both the browser and the developer.-->
-     <header>
-        <img scr="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
+    <header>
+        <img src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
         <nav>
-            <nav>
-                <a href="#">Home</a> |
-                <a href="#">Service + Rates</a> |
-                <a href="#">|Route Info</a> |
-                <a href="#">About</a>
-                <a href="#">902-625-1475</a>
-              </nav>
+            <a href="/">HOME</a> 
+            <a href="#">SERVICE + RATES</a> 
+            <a href="#">ROUTE INFO</a> 
+            <a href="#">ABOUT</a>
+            <a href="#">1-902-625-1475</a>
         </nav>
-     </header>
-     <div>Separator</div>
-     <section></section>
-     <footer></footer>
+    </header>
+    <div>Separator</div>
+    
+    <main>
+        <section>
+            <img src="images/hero_image.png" alt="Strait Area Transit Driver picking up passengers">
+        </section>
+        <aside>
+            <h2>Connection Communities</h2>
+            <p>Strait Area Transit is dedicated to bridging the gaps between communities in the Strait Area, providing a vital transportation link that fosters connection, accessibility, and economic growth. By offering reliable and affordable door-to-door transportation, we empower residents to access essential services, employment opportunities, and social activities, ultimately enhancing their quality of life. Our community-driven approach ensures that our services are tailored to meet the unique needs of our riders, promoting a sense of belonging and inclusivity throughout the region. By connecting communities, we are building a stronger, more resilient Strait Area, where everyone has the opportunity to thrive</p>
+            <div>Book Your Ride</div>
+        </aside>
+    </main>
+    
+    <footer>
+        <section>
+            <img src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
+            <address>
+                <a href="mailto:director@satbus.ca">DIRECTOR@SABUS.CA</a>
+            </address>
+            <img src="icons/facebook_logo_1.svg" alt="FaceBook Home Page">
+            <img src="icons/X_Logo_1.svg" alt="X (formally Twitter) Home Page">
+            <img src="icons/instagram_logo_1.svg" alt="Instagram Home Page">
+            <img src="icons/youtube_logo_1.svg" alt="Youtube Home Page">
+            <img src="icons/linkedin_logo_1.svg" alt="Linked-In Home Page">
+        </section>
+            
+        <section>
+            <h2>Explore</h2>
+            <ul>
+                <li><a href="#">Book a Ride</a> </li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Route Info</a></li>
+                <li><a href="#">Services + Rates</a></li>
+            </ul>
+        </section>
+        
+        <article>
+            <h2>About Strait Area Transit</h2>
+            <p>Strait Area Transit is supported by the Town of Port Hawkesbury, Inverness County, Richmond County, and
+                the Province of Nova Scotia’s Department of Communities, Culture and Heritage (CCH).</p>
+        </article>
+    </footer>
 </body>
 </html>
