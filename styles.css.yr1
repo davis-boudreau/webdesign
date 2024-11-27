@@ -1,0 +1,60 @@
+body {
+  /* To Do LEarn how to use external fonts*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.hero_headline {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.seperator {
+  height: 4px;
+  background-color: #00996B;
+}
+
+button {
+  background-color: #00996B;
+  cursor: pointer;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  margin: 4px 2px;
+  text-decoration: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: minmax(178px,178px) 1fr;
+    /* Create two columns with the first one twice as wide as the second */
+  gap: 16px;
+  padding: 16px;
+  text-align: right;
+  align-items: center;
+}
+
+nav a {
+  padding: 8px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  /* Create four columns with the even columns twice as wide as the odd columns */
+  gap: 16px;
+  background-color: #00996b;
+  padding: 16px;
+  color: white;
+}
+

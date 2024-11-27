@@ -1,17 +1,83 @@
 body {
-    /* To do: create a quide on using external fonts*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  padding: 8px;
 }
-p {
-  font-size: 1.06rem;  
+
+a {
+  text-decoration: none;
 }
 
 h2 {
-    font: 2.48rem;
+  font-size: 2ef;
 }
 
+header {
+  display: grid;
+  grid-template-columns: minmax(90px,178px) 1fr;
+  gap: 32px;
+  text-align: right;
+  align-items: center;
+  padding: 16px;
 
+}
+header nav a {
+  padding: 8px;
+  color: black;
+}
 
+.seperator {
+  height: 4px;
+  background-color: #00996B;
 
+}
+img {
+  max-width: 90%;
+  height: auto;
+}
 
+.hero_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.hero_headline {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+button {
+  background-color: #00996B;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  gap: 32px;
+  background-color: #00996B;
+  color: white;
+}
+
+.footer_contact {
+  padding-bottom: 16px;
+}
+
+address a {
+  color: white;
+  font-style: normal;
+}
+
+footer nav a {
+  display: block;
+  color: white;
+}
+
+main {
+  padding: 16px;
+}

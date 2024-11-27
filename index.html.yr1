@@ -9,10 +9,12 @@
     Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.    
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- External CSS - Link to the external stylesheet-->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
     
     <!--Be sure to provide a Title for your website-->
     <title>Strait Area Transit</title>
@@ -28,7 +30,7 @@
             <a href="#">1-902-625-1475</a>
         </nav>
     </header>
-    <div class="seperator"></div>
+    <div class="seperator">Separator</div>
     
     <main>
         <!--
@@ -40,11 +42,11 @@
         Background: Often a full-width image or video that sets the tone and mood of the section.
         Navigation: While not always part of the hero section itself, the main navigation is usually positioned above or integrated into the hero area for easy access3.
         -->
-        <section class="hero_section">
+        <section>
             <img src="images/hero_image.png" alt="Strait Area Transit Driver picking up passengers">
             <aside>
                 <h2 class="hero_headline">Connecting Communities</h2>
-                <p>Strait Area Transit is dedicated to bridging the gaps between communities in the Strait Area, providing a vital transportation link that fosters connection, accessibility, and economic growth.</p>
+                <p>Strait Area Transit is dedicated to bridging the gaps between communities in the Strait Area, providing a vital transportation link that fosters connection, accessibility, and economic growth. By offering reliable and affordable door-to-door transportation, we empower residents to access essential services, employment opportunities, and social activities, ultimately enhancing their quality of life. Our community-driven approach ensures that our services are tailored to meet the unique needs of our riders, promoting a sense of belonging and inclusivity throughout the region. By connecting communities, we are building a stronger, more resilient Strait Area, where everyone has the opportunity to thrive</p>
                 <button onclick="alert('Hello world!')">Book a Ride</button>
             </aside>
         </section>
@@ -52,7 +54,7 @@
     </main>
     
     <footer>
-        <section class="footer_contact">
+        <section>
             <img src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
             <address>
                 <a href="mailto:director@satbus.ca">DIRECTOR@SABUS.CA</a>
@@ -66,12 +68,12 @@
             
         <section>
             <h2>Explore</h2>
-            <nav>
-                <a class="nav_footer" href="#">Book a Ride</a>
-                <a class="nav_footer" href="#">Our Story</a>
-                <a class="nav_footer" href="#">Route Info</a>
-                <a class="nav_footer" href="#">Services + Rates</a>
-            </nav>
+            <ul>
+                <li><a href="#">Book a Ride</a> </li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Route Info</a></li>
+                <li><a href="#">Services + Rates</a></li>
+            </ul>
         </section>
         
         <article>
