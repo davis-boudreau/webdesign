@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../saitge-codebase"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "saitge-codebase"
+	}
+}
