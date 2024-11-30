@@ -1,14 +1,50 @@
 body {
     /* To do: create a quide on using external fonts*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 19px;
 }
+
 p {
-  font-size: 1.06rem;  
+  font-size: 1.0 em;  
 }
 
 h2 {
-    font: 2.48rem;
+    font: 2.0 em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.seperator {
+    background-color:#00996B;
+    height: 4px;
+}
+
+header {
+  padding: 8px;
+}
+main {
+  display: grid;
+  padding: 8px;
+}
+footer {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-template-columns: ; 
+  gap: 16px;
+  padding: 8px; */
+}
+footer section article { 
+  padding: 0px;
+}
+
+footer section img {
+  width: 80%;
+
+}
+.sitemap {
+  min-width: 200px; 
 }
 
 

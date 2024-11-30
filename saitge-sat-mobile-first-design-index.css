@@ -1,0 +1,125 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+/* Header and Footer - Common Grid */
+.header, .footer {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation Styling */
+.nav .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #0056b3;
+}
+
+/* CTA Buttons */
+.cta button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-btn01, .cta-btn03 {
+  background-color: #28a745;
+  color: white;
+}
+
+.cta-btn02, .cta-btn04 {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Main Section */
+.main {
+  padding: 20px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subheadline {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+  
+  .seperator {
+    background-color: #00996B;
+    height: 4px;
+  }
+  
